@@ -1,3 +1,61 @@
 body {
-  background: rgb(201, 191, 173);
+  background: rgb(252, 242, 224);
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+footer {
+  text-align: center;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+main {
+}
+
+form {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(38, 33, 66, 0.5);
+  width: 80%;
+  border-radius: 50px;
+  line-height: 20px;
+  color: black;
+}
+.submit-button {
+  margin-left: 10px;
+  background: rgb(4, 71, 255);
+  width: 150px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 24px;
+}
+
+.dog-breed {
+  font-size: 16px;
+  background-color: #fff;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid rgb(4, 71, 255);
+  border-radius: 10px;
 }
