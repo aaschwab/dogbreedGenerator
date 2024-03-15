@@ -12,17 +12,25 @@
     <body>
       <h1>AI Dog Breed Generator</h1>
       <main>
-        <form id="input-form">
-          <input
-            type="text"
-            placeholder="Enter your lifestyle for the best dog breed"
-            autofocus
-            required
-            class="instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="dog-breed" id="dog-breed"></div>
+        <div class="form-container">
+          <form id="input-form">
+            <input
+              type="text"
+              placeholder="Enter your lifestyle for the best dog breed"
+              autofocus
+              required
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">
+            <small>
+              ie: active lifestyle with hiking and lots of outdoor sports</small
+            >
+          </div>
+        </div>
+        <div class="hidden" id="dog-breed"></div>
       </main>
     </body>
   </div>

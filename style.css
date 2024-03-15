@@ -26,12 +26,22 @@ header {
 main {
 }
 
-form {
+.form-container {
   padding: 30px;
   background-color: white;
   border-radius: 10px;
-  display: flex;
   margin-bottom: 30px;
+}
+form {
+  display: flex;
+}
+
+.hint {
+  display: block;
+  line-height: 1.5;
+  margin-top: 5px;
+  font-size: 14px;
+  color: black;
 }
 .instructions {
   padding: 16px;
@@ -58,4 +68,23 @@ form {
   line-height: 2;
   border-left: 3px solid rgb(4, 71, 255);
   border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
