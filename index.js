@@ -1,7 +1,13 @@
 function generateForm(event) {
   event.preventDefault();
-  let dogBreedElement = document.querySelector("#dog-breed");
-  dogBreedElement.innerHTML = "Norwegain Elkhound is your breed";
+
+  new Typewriter("#dog-breed", {
+    strings: ["Norwegain Elkhound is your breed"],
+    autoStart: true,
+    delay: 3,
+    cursor: "",
+    deleteSpeed: false,
+  });
 }
 
 //
