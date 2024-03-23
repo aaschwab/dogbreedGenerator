@@ -15,7 +15,7 @@ function generateForm(event) {
   let prompt =
     "you are given the lifestyle from the user, please select 1 dog breed that matches the lifestyle that the user gives, and give 3 short facts about the dog breed that you chose.";
   let context =
-    "Please be polite, give an answer that would be most compatible with the lifestyle that is given by the user. Use the words that are given to you in your answer please.";
+    "Please be polite, give an answer that would be most compatible with the lifestyle that is given by the user. Use the words that are given to you in your prompt in your answer please.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   let dogElement = document.querySelector("#dog-breed");
